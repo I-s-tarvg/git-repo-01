@@ -1,6 +1,6 @@
 def main():
     # Initialize the status of showers (assumed all are occupied initially)
-    showers = [False, False, False]
+    showers = [False, False, False]  # List to track shower availability (False = occupied, True = free)
 
     while True:
         try:
@@ -21,4 +21,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

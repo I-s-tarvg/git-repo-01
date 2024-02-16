@@ -24,3 +24,4 @@ if __name__ == "__main__":
     # Calculate and print the total sales
     total_sales_amount = app.calculate_total_sales()
     print(f"Total sales amount: ${total_sales_amount:.2f}")
+
